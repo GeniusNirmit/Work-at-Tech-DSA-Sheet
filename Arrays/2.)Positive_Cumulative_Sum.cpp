@@ -7,7 +7,8 @@ vector<int> getPositiveCumulativeSum(vector<int> &arr) {
 	for(int i=0;i<n;i++)
 	{
 		sum+=arr[i];
-		v.push_back(sum);
+		if(sum>0)
+			v.push_back(sum);
 	}
 	return v;
 }

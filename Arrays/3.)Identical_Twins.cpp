@@ -31,3 +31,18 @@ int getIdenticalTwinsCount(vector<int> &arr) {
 }
 
 //According to me, this is the optimal solution of the given problem statement among various approaches.
+//Another approach is Linear Search
+
+
+// int getIdenticalTwinsCount(vector<int> &arr) {
+//    	int counter = 0;
+//        for (int i=0;i<arr.size();i++) 
+//        {
+//        		for (int j=i+1;j<arr.size();j++) 
+//        		{
+//            		if (arr[i] == arr[j]) 
+//                		counter;
+//	       	    }
+//	      }
+//    return counter;
+// }

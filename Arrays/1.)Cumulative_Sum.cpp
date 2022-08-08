@@ -1,4 +1,4 @@
-//Problem Statement:-https://workat.tech/problem-solving/practice/positive-cumulative-sum
+//Problem Statement/:-https://workat.tech/problem-solving/practice/positive-cumulative-sum
 
 vector<int> getPositiveCumulativeSum(vector<int> &arr) {
 	int n=arr.size();

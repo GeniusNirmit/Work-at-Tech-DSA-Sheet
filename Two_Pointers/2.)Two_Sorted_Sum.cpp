@@ -1,9 +1,5 @@
 //Problem Statement/:-https://workat.tech/problem-solving/practice/two-sum-sorted
 
-
-//Two ways to solve a particular element
-
-
 //1.) Optimal way is with O(n) time complexity.
 bool hasTwoSumZero(vector<int> &A) {
 	int i=0,j=A.size()-1;

@@ -1,4 +1,4 @@
-//Problem Statement/:-https://workat.tech/problem-solving/practice/print-linked-list
+//Problem Statement/:-https://workat.tech/problem-solving/practice/print-reversed-linked-list
 
 /* This is the ListNode class definition
 
@@ -14,11 +14,12 @@ public:
 };
 */
 
-void printLinkedList (ListNode* head) {
+void printLinkedListReverse (ListNode* head) {
+    // add your logic here
 	ListNode *p=head;
-	while(p)
+	if(p)
 	{
+		printLinkedListReverse(p->next);
 		cout<<p->data<<" ";
-		p=p->next;
 	}
 }

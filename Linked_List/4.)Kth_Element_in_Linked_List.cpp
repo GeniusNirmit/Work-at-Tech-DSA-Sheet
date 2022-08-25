@@ -15,7 +15,6 @@ public:
 */
 
 ListNode* kthElement (ListNode* head, int k) {
-    // add your logic here
 	ListNode *p=head;
 	k-=1;
 	while(k--)

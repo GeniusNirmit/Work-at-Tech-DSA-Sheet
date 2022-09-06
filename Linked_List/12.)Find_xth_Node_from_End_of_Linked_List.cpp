@@ -17,7 +17,6 @@ public:
 // Approach-1 
 
 ListNode* xthNodeFromEnd(ListNode* head, int x) {
-	// add your logic here
 	ListNode *p=head;
 	int counter=0;
 	while(p)
@@ -35,7 +34,6 @@ ListNode* xthNodeFromEnd(ListNode* head, int x) {
 // Approach-2
 
 ListNode* xthNodeFromEnd(ListNode* head, int x) {
-	// add your logic here
 	ListNode *p=head;
 	for(int i=1;i<x;i++)
 		p=p->next;

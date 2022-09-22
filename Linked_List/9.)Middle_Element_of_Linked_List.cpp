@@ -17,7 +17,6 @@ public:
 // Approach 1
 
 int getMiddleElementOfLinkedList (ListNode* list) {
-    // add your logic here
 	ListNode *p=list;
 	ListNode *q=list;
 	while(p->next)

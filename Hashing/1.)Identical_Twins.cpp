@@ -30,6 +30,8 @@ int getIdenticalTwinsCount(vector<int> &arr) {
 	return counter;
 }
 
+
+
 //According to me, this is the optimal solution of the given problem statement among various approaches.
 //Another approach is Linear Search
 

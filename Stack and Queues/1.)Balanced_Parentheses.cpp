@@ -1,7 +1,6 @@
 //Problem Statement/:-https://workat.tech/problem-solving/practice/balanced-parentheses
 
 bool isBalancedParentheses(string x) {
-    // add your logic here
 	stack<char> s;
     for(int i=0;i<x.length();i++)
     {

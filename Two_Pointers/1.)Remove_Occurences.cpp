@@ -7,6 +7,7 @@ int removeOccurences(vector<int> &A, int k) {
 	{
 		if(A[i]==k)
 			counter++;
+
 	}
 	return (A.size()-counter);
 }
